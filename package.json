@@ -4,7 +4,8 @@
   "description": "web platform for Project Twine",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
