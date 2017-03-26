@@ -1,0 +1,26 @@
+{
+  "name": "twine-web",
+  "version": "1.0.0",
+  "description": "web platform for Project Twine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectTwine/twineWeb.git"
+  },
+  "author": "Stevie Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projectTwine/twineWeb/issues"
+  },
+  "homepage": "https://github.com/projectTwine/twineWeb#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0"
+  }
+}
