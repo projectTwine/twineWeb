@@ -4,7 +4,7 @@
   "description": "web platform for Project Twine",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "standard && jest",
     "build": "babel src -d lib"
   },
   "repository": {
@@ -22,6 +22,8 @@
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.0"
+    "babel-cli": "^6.24.0",
+    "jest": "^19.0.2",
+    "standard": "^9.0.2"
   }
 }
